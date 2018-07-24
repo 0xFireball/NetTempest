@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tempest.Desktop", "Desktop\Tempest\Tempest.Desktop.csproj", "{D6A2003C-CBB2-47B0-B306-521141D3068D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tempest.Tests", "Desktop\Tempest\Tests\Tempest.Tests.csproj", "{97D53DFA-634E-4595-9AE3-DC1BC8A5F553}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{A38C42AE-B7A0-4541-AF9B-1552FCBCF019}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tempest", "Tempest\Tempest.csproj", "{546F259D-CD47-49D6-8AA1-5D0059D8C390}"
 EndProject
@@ -19,12 +15,6 @@ Global
 		Release|iPhone = Release|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6A2003C-CBB2-47B0-B306-521141D3068D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6A2003C-CBB2-47B0-B306-521141D3068D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6A2003C-CBB2-47B0-B306-521141D3068D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{D6A2003C-CBB2-47B0-B306-521141D3068D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6A2003C-CBB2-47B0-B306-521141D3068D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6A2003C-CBB2-47B0-B306-521141D3068D}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{97D53DFA-634E-4595-9AE3-DC1BC8A5F553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97D53DFA-634E-4595-9AE3-DC1BC8A5F553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D53DFA-634E-4595-9AE3-DC1BC8A5F553}.Debug|iPhone.ActiveCfg = Debug|Any CPU
@@ -42,7 +32,5 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D6A2003C-CBB2-47B0-B306-521141D3068D} = {A38C42AE-B7A0-4541-AF9B-1552FCBCF019}
-		{97D53DFA-634E-4595-9AE3-DC1BC8A5F553} = {A38C42AE-B7A0-4541-AF9B-1552FCBCF019}
 	EndGlobalSection
 EndGlobal

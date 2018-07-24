@@ -610,7 +610,7 @@ namespace Tempest.Providers.Network
 
 		#if TRACE
 		#if NETFX_CORE
-		private static readonly TraceSwitch NTrace = new TraceSwitch (true);
+		private static readonly TraceSwitch NTrace = new TraceSwitch ("Tempest.Networking", "MessageSerializer");
 
 		private static int callId;
 		protected int GetNextCallId()
